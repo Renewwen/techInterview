@@ -1,3 +1,6 @@
 # techInterview
-Leetcode, Algorithm, OOD, system Design
+Leetcode  
+Algorithm  
+OOD  
+System Design
 

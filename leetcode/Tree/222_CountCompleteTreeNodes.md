@@ -43,7 +43,7 @@ public int countNodes(TreeNode root) {
 
 ```
 
-### Method 2: 
+### Method 2: Binary Search
 ```java
 // Method 2: binary-Search
 // Time: O(log(n)^2)
