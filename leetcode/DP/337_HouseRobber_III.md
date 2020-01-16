@@ -30,3 +30,52 @@ Output: 9
 Explanation: Maximum amount of money the thief can rob = 4 + 5 = 9.
 ```
 
+```Java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    // two state for one node
+    // rob = notRobLeft + notRobRight + root.val
+    // notRob = max(robLeft, notrobLeft) + max(rotRight, notRobRight)
+    // return rob, notRob
+    // Time: O(n)
+    // Space: O(height)
+    int result = 0;
+    
+    static class States {
+        int rob;
+        int notRob;
+        public States(int rob, int notRob) {
+            this.rob = rob;
+            this.notRob = notRob;
+        }
+    }
+    
+    public int rob(TreeNode root) {
+        helper(root);
+        return result;
+    }
+    
+    public States helper(TreeNode root) {
+        if (root == null) {
+            return new States(0, 0);
+        }    
+        States left = helper(root.left);
+        States right = helper(root.right);
+
+        int rob = left.notRob + right.notRob + root.val;
+        int notRob = Math.max(left.rob, left.notRob) + 
+                     Math.max(right.rob, right.notRob);
+        result = Math.max(result, Math.max(rob, notRob));
+        
+        return new States(rob, notRob);
+    }
+}
+```
