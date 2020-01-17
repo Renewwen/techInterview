@@ -14,6 +14,7 @@ Input:
 Output: 1->1->2->3->4->4->5->6
 ```
 
+### Method 1: Using Heap
 ```Java
 /**
  * Definition for singly-linked list.
