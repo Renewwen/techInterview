@@ -1,12 +1,15 @@
-# techInterview
+# Tech-Interview
 
 ## Leetcode
-
-### BinarySearch
 
 ### Data Structure
 [146. LRU Chace](https://github.com/Renewwen/techInterview/blob/master/leetcode/DataStructure/146_LRU.md)  
 [706. Design HashMap](https://github.com/Renewwen/techInterview/blob/master/leetcode/DataStructure/706_DesignHashmap.md)
+
+### BinarySearch
+
+### Stack
+[42. Trapping Rain Water](https://github.com/Renewwen/techInterview/blob/master/leetcode/Stack/42_TrappingRainWater.md)
 
 ### Graph
 [200. Number of Islands](https://github.com/Renewwen/techInterview/blob/master/leetcode/Graph/200_NumberOfIslands.md)
@@ -22,7 +25,7 @@
 
 ### LinkedList
 
-### OOD
+### Object-oriented Design
 
 ### String
 

@@ -25,7 +25,7 @@ Output: 3
 // Method: BFS, and don't change the input value
 // Time: O(n * m) 
 // Space: O(n * m) 
-    private static int[][] DIRS = {{1, 0}, {-1, 0}, {0, -1}, {0, 1}};
+private static int[][] DIRS = {{1, 0}, {-1, 0}, {0, -1}, {0, 1}};
 
 public int numIslands(char[][] grid) {
     if (grid == null || grid.length == 0) {
