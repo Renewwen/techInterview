@@ -19,13 +19,14 @@ Initially, all next pointers are set to NULL.
 Follow up:
 
 You may only use constant extra space.
-Recursive approach is fine, you may assume implicit stack space does not count as extra space for this problem.
+Recursive approach is fine, 
+you may assume implicit stack space does not count as extra space for this problem.
 ```
 
 
 Example 1:
 
-![](https://assets.leetcode.com/uploads/2019/02/14/116_sample.png)
+<img src="https://assets.leetcode.com/uploads/2019/02/14/116_sample.png" width="450" height="160">
 
 ```
 Input: root = [1,2,3,4,5,6,7]
@@ -33,9 +34,9 @@ Output: [1,#,2,3,#,4,5,6,7,#]
 Explanation: Given the above perfect binary tree (Figure A), your function should populate each next pointer to point to its next right node, just like in Figure B. The serialized output is in level order as connected by the next pointers, with '#' signifying the end of each level.
 ```
 
-## Method 1: Level Order Traversal
+### Method 1: Level Order Traversal (BFS)
 ```java
-// Method 1: Level order traversal
+// Method 1: Level order traversal (BFS)
 // Time: O(n)
 // Space: O(n)
 public Node connect(Node root) {
@@ -66,7 +67,7 @@ public Node connect(Node root) {
 }
 ```
 
-## Method 2: Recursion
+### Method 2: Recursion
 ```Java
 // Method 2: recursion 
 // Time: O(n)
