@@ -30,4 +30,6 @@
 ### String
 
 ### Tree
-[222. Count Complete Tree Nodes](https://github.com/Renewwen/techInterview/blob/master/leetcode/Tree/222_CountCompleteTreeNodes.md)
+[222. Count Complete Tree Nodes](https://github.com/Renewwen/techInterview/blob/master/leetcode/Tree/222_CountCompleteTreeNodes.md)  
+[116. Populating next right pointers in each node](https://github.com/Renewwen/techInterview/blob/master/leetcode/Tree/116_PopulatingNextRightPointersInEachNode.md)
+
