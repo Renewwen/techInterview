@@ -11,7 +11,11 @@
 ### Stack
 [42. Trapping Rain Water](https://github.com/Renewwen/techInterview/blob/master/leetcode/Stack/42_TrappingRainWater.md)
 
+### DFS && Backtracking
+[22. Generate Parentheses](https://github.com/Renewwen/techInterview/blob/master/leetcode/Stack/22_GenerateParentheses.md)
+
 ### Graph
+[79. Word Search](https://github.com/Renewwen/techInterview/blob/master/leetcode/Graph/79_WordSearch.md)  
 [200. Number of Islands](https://github.com/Renewwen/techInterview/blob/master/leetcode/Graph/200_NumberOfIslands.md)
 
 ### Dynamic Programming
@@ -21,7 +25,7 @@
 
 ### K Problem
 [23. Merge K Sorted Lists](https://github.com/Renewwen/techInterview/blob/master/leetcode/K%20Problem/23_MergeKSortedLists.md)  
-[230. Kth Smallest Element in a BST](https://github.com/Renewwen/techInterview/blob/master/leetcode/K%20Problem/230_KthSmallestElementInABST.md)
+[230. Kth Smallest Element in a BST](https://github.com/Renewwen/techInterview/blob/master/leetcode/K%20Problem/230_KthSmallestElementInABST.md)  
 [692. Top K Frequent Words](https://github.com/Renewwen/techInterview/blob/master/leetcode/K%20Problem/692_TopKFrequentWords.md)
 
 ### LinkedList
