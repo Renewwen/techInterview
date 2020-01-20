@@ -37,7 +37,7 @@ Return false.
 ### Method 1: Burte force
 ```java
 // Method 1: compare every node in s to t, one by one!
-// Time: O(n*m)
+// Time: O(n * m)
 // Space: O(n + m)
 public boolean isSubtree(TreeNode s, TreeNode t) {
     if (s == null) {

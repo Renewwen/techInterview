@@ -21,6 +21,7 @@
 
 ### K Problem
 [23. Merge K Sorted Lists](https://github.com/Renewwen/techInterview/blob/master/leetcode/K%20Problem/23_MergeKSortedLists.md)  
+[230. Kth Smallest Element in a BST](https://github.com/Renewwen/techInterview/blob/master/leetcode/K%20Problem/230_KthSmallestElementInABST.md)
 [692. Top K Frequent Words](https://github.com/Renewwen/techInterview/blob/master/leetcode/K%20Problem/692_TopKFrequentWords.md)
 
 ### LinkedList
