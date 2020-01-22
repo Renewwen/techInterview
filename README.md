@@ -12,7 +12,7 @@
 [42. Trapping Rain Water](https://github.com/Renewwen/techInterview/blob/master/leetcode/Stack/42_TrappingRainWater.md)
 
 ### DFS && Backtracking
-[22. Generate Parentheses](https://github.com/Renewwen/techInterview/blob/master/leetcode/Stack/22_GenerateParentheses.md)
+[22. Generate Parentheses](https://github.com/Renewwen/techInterview/blob/master/leetcode/DFS/22_GenerateParentheses.md)
 
 ### Graph
 [79. Word Search](https://github.com/Renewwen/techInterview/blob/master/leetcode/Graph/79_WordSearch.md)  
@@ -37,5 +37,6 @@
 ### Tree
 [116. Populating next right pointers in each node](https://github.com/Renewwen/techInterview/blob/master/leetcode/Tree/116_PopulatingNextRightPointersInEachNode.md)  
 [222. Count Complete Tree Nodes](https://github.com/Renewwen/techInterview/blob/master/leetcode/Tree/222_CountCompleteTreeNodes.md)  
+[545. Boundary of Binary Tree](https://github.com/Renewwen/techInterview/blob/master/leetcode/Tree/545_BoundaryOfBinaryTree.md)
 [572. Subtree of Another Tree](https://github.com/Renewwen/techInterview/blob/master/leetcode/Tree/572_SubtreeOfAnotherTree.md)  
 
