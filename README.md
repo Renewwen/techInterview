@@ -4,7 +4,9 @@
 
 ### Data Structure
 [146. LRU Chace](https://github.com/Renewwen/techInterview/blob/master/leetcode/DataStructure/146_LRU.md)  
-[706. Design HashMap](https://github.com/Renewwen/techInterview/blob/master/leetcode/DataStructure/706_DesignHashmap.md)
+[208. Implement Trie (Prefix Tree)](https://github.com/Renewwen/techInterview/blob/master/leetcode/DataStructure/208_ImplementTrie.md)  
+[588. Design In-memory File System](https://github.com/Renewwen/techInterview/blob/master/leetcode/DataStructure/588_DesignIn-MemoryFileSystem.md)  
+[706. Design HashMap](https://github.com/Renewwen/techInterview/blob/master/leetcode/DataStructure/706_DesignHashmap.md)  
 
 ### BinarySearch
 
@@ -37,6 +39,6 @@
 ### Tree
 [116. Populating next right pointers in each node](https://github.com/Renewwen/techInterview/blob/master/leetcode/Tree/116_PopulatingNextRightPointersInEachNode.md)  
 [222. Count Complete Tree Nodes](https://github.com/Renewwen/techInterview/blob/master/leetcode/Tree/222_CountCompleteTreeNodes.md)  
-[545. Boundary of Binary Tree](https://github.com/Renewwen/techInterview/blob/master/leetcode/Tree/545_BoundaryOfBinaryTree.md)
+[545. Boundary of Binary Tree](https://github.com/Renewwen/techInterview/blob/master/leetcode/Tree/545_BoundaryOfBinaryTree.md)  
 [572. Subtree of Another Tree](https://github.com/Renewwen/techInterview/blob/master/leetcode/Tree/572_SubtreeOfAnotherTree.md)  
 
