@@ -31,6 +31,7 @@
 [692. Top K Frequent Words](https://github.com/Renewwen/techInterview/blob/master/leetcode/K%20Problem/692_TopKFrequentWords.md)
 
 ### LinkedList
+[138. Copy List with Random Pointer](https://github.com/Renewwen/techInterview/blob/master/leetcode/LinkedList/138_CopyListWithRandomPointer.md)
 
 ### Object-oriented Design
 
