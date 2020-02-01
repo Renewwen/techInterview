@@ -9,6 +9,7 @@
 [706. Design HashMap](https://github.com/Renewwen/techInterview/blob/master/leetcode/DataStructure/706_DesignHashmap.md)  
 
 ### BinarySearch
+[240. Search a 2D Matrix II](https://github.com/Renewwen/techInterview/blob/master/leetcode/BinarySearch/240_SearchA2DMatrixII.md)
 
 ### Stack
 [42. Trapping Rain Water](https://github.com/Renewwen/techInterview/blob/master/leetcode/Stack/42_TrappingRainWater.md)
