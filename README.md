@@ -37,6 +37,7 @@
 ### Object-oriented Design
 
 ### String
+[5. Longest Palindromic Substring](https://github.com/Renewwen/techInterview/blob/master/leetcode/String/5_LongestPalindromicSubstring.md)
 
 ### Tree
 [116. Populating next right pointers in each node](https://github.com/Renewwen/techInterview/blob/master/leetcode/Tree/116_PopulatingNextRightPointersInEachNode.md)  
