@@ -20,7 +20,8 @@
 ### Graph
 [79. Word Search](https://github.com/Renewwen/techInterview/blob/master/leetcode/Graph/79_WordSearch.md)  
 [200. Number of Islands](https://github.com/Renewwen/techInterview/blob/master/leetcode/Graph/200_NumberOfIslands.md)  
-[289. Game of Life](https://github.com/Renewwen/techInterview/blob/master/leetcode/Graph/289_GameOfLife.md)
+[289. Game of Life](https://github.com/Renewwen/techInterview/blob/master/leetcode/Graph/289_GameOfLife.md)  
+[694. Number of Distinct Island](https://github.com/Renewwen/techInterview/blob/master/leetcode/Graph/694_NumberOfDistinctIslands.md)
 
 ### Dynamic Programming
 [198. House Robber](https://github.com/Renewwen/techInterview/blob/master/leetcode/DP/198_HouseRobber.md)  

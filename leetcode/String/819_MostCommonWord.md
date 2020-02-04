@@ -31,6 +31,8 @@ Note:
 
 ## Method 1: Regular Expression("\W+")
 ```java
+// Time: O(n + m)
+// Space: O(m + n)
 public String mostCommonWord(String paragraph, String[] banned) {
     // assume the input are all valid
     // \w+, \W+: ONE or MORE continuous
