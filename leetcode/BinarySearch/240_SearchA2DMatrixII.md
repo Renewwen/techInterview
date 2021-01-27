@@ -52,7 +52,8 @@ public boolean searchMatrix(int[][] matrix, int target) {
     }    
     int row = matrix.length - 1;
     int col = 0;
-    while (row >= 0 && col < matrix[0].length) {
+    // for the condition, better to keep the physical meaning of row and col unified. 
+    while (row >= 0 && col <= matrix[0].length - 1) {
         if (matrix[row][col] == target) {
             return true;
         } else if (matrix[row][col] > target) {
