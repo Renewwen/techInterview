@@ -19,7 +19,6 @@ Consider the following matrix:
 ]
 
 Given target = 5, return true.
-
 Given target = 20, return false.
 ```
 
