@@ -158,17 +158,6 @@ class Solution {
         }
         return false;
     }
-    
-    private boolean isPalindrome(char[] arr, int start, int end) {
-        while (start < end) {
-            if (arr[start] != arr[end]) {
-                return false;
-            }
-            start++;
-            end--;
-        }
-        return true;
-    }
 
 }
 ```
