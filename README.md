@@ -52,13 +52,3 @@
 [545. Boundary of Binary Tree](https://github.com/Renewwen/techInterview/blob/master/leetcode/Tree/545_BoundaryOfBinaryTree.md)  
 [572. Subtree of Another Tree](https://github.com/Renewwen/techInterview/blob/master/leetcode/Tree/572_SubtreeOfAnotherTree.md)  
 
-Ok, A New Test
-
-2021/11/01
-I am Back!
-
-2021/12/16
-Double check: OK, really back!
-
-2021/12/26 
-Always in Back...
