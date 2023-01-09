@@ -49,6 +49,7 @@ public boolean searchMatrix(int[][] matrix, int target) {
     if (matrix == null || matrix.length == 0) {
         return false;
     }    
+    // start from left-bottom
     int row = matrix.length - 1;
     int col = 0;
     // for the condition, better to keep the physical meaning of row and col unified. 
@@ -61,6 +62,25 @@ public boolean searchMatrix(int[][] matrix, int target) {
         } else {
             // all elements on this col is smaller than target
             col++;
+        }
+    }
+    return false;
+}
+
+// start from right-top
+public boolean searchMatrix(int[][] matrix, int target) {
+    if (matrix == null || matrix.length == 0) {
+        return false;
+    }
+    int row = 0;
+    int col = matrix[0].length - 1;
+    while (row < matrix.length && col >= 0) {
+        if (target == matrix[row][col]) {
+            return true;
+        } else if (target < matrix[row][col]) {
+            col--;
+        } else {
+            row++;
         }
     }
     return false;
