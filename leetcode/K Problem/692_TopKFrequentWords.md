@@ -56,7 +56,7 @@ public List<String> topKFrequent(String[] words, int k) {
         } else if (cur.getValue() >= pq.peek().getValue()) {
             pq.offer(cur);    
             pq.poll();
-        }   
+        }
     }
     
     // output result
