@@ -46,4 +46,30 @@ public class Solution {
         }
     }
 
+    // 优化twoSum(), 使用双指针，将空间复杂度降为 O(1)
+    private void twoSum(int[] num, int target, int start,
+                        ArrayList<ArrayList<Integer>> res) {
+        if (start > num.length - 3) {
+            return;
+        }
+        int left = start + 1;
+        int right = num.length - 1;
+        while (left < right) {
+            if (num[left] + num[right] == target) {
+                res.add(new ArrayList<>(Arrays.asList(num[start], num[left], num[right])));
+                while (left < right && num[left] == num[left + 1]) {
+                    left++;
+                }
+                while (left < right && num[right] == num[right - 1]) {
+                    right--;
+                }
+            }
+            if (num[left] + num[right] > target) {
+                right--;
+            } else {
+                left++;
+            }
+        }
+    }
+
 }

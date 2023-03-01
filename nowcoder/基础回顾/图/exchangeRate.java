@@ -1,5 +1,11 @@
 import java.util.*;
 
+/**
+ * 给定一个汇率表，然后两个币种，求汇率
+ *
+ * 解法：构造双向图，使用深度优先搜索
+ */
+
 public class Solution {
 
     static class CurrencyPair {
