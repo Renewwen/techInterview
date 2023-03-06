@@ -33,7 +33,7 @@ public class Solution {
         if (map.containsKey(from) && map.containsKey(to)) {
             HashSet<Node> visited = new HashSet<>();
             visited.add(map.get(from));
-            dfs(map.get(from), map.get(to), new double[]{1.0}, visited);
+            exchangeRate(map.get(from), map.get(to), new double[]{1.0}, visited);
         }
         return res[0];
     }
